@@ -8,8 +8,8 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     } else {
         alert("Invalid credentials");
     }
-});*/
+});
 
 document.querySelector('.change-password-btn').addEventListener('click', function() {
     alert("Change password functionality not implemented yet.");
-});
+});*/
