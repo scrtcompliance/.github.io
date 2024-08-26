@@ -17,7 +17,7 @@ body {
 .login-container {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 40px;
-    border-radius: 0px;
+    border-radius: 0px; /* Optional: adjust if you want rounded corners */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 400px;
@@ -37,23 +37,39 @@ h2 {
 form {
     display: flex;
     flex-direction: column;
+    align-items: center; /* Center-aligns form elements */
 }
 
-input[type="text"], input[type="password"] {
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 0px;
+.input-group {
+    margin-bottom: 15px;
+    width: 100%; /* Ensures full-width for input groups */
+    text-align: left; /* Aligns text to the left for labels */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold;
+    font-size: 16px; /* Adjusted for better readability */
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    padding: 10px;
+    border-radius: 0px; /* Optional: adjust if you want rounded corners */
     border: 1px solid #ccc;
     font-size: 16px;
+    width: 100%; /* Makes input fields span the width of the container */
 }
 
 button {
     padding: 10px;
     margin: 10px 0;
     border: none;
-    border-radius: 0px;
+    border-radius: 0px; /* Optional: adjust if you want rounded corners */
     font-size: 16px;
     cursor: pointer;
+    width: 100%; /* Makes buttons span the width of the container */
 }
 
 .login-btn {
