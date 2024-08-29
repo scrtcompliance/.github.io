@@ -13,3 +13,9 @@
 document.querySelector('.change-password-btn').addEventListener('click', function() {
     alert("Change password functionality not implemented yet.");
 });*/
+
+
+document.getElementById("loginForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Mencegah form submit default
+    window.location.href = "https://eh-fiori-prd.ekahospital.com/fiori"; // Ganti dengan URL tujuan Anda
+});
