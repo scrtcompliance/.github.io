@@ -13,10 +13,14 @@
                 <img src="sap_logo.png">
             </div>
             <form id="loginForm">
-                <label for="user">User:</label>
-                <input type="text" id="user" placeholder="User" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" placeholder="Password" required>
+                <div class="form-group">
+                    <label for="user">User</label>
+                    <input type="text" id="user" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
                 <button type="submit" class="login-btn">Log On</button>
                 <button type="button" class="change-password-btn">Change Password</button>
             </form>
